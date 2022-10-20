@@ -1,0 +1,30 @@
+.mainContainer {
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.m1 {
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.EncodeResult {
+    background-color: #cfffcf;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.button {
+    background-color: #559cff;
+    padding: 5px;
+    outline: none;
+    box-shadow: none;
+    /* border: none; */
+}
