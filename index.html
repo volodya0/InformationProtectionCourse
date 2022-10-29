@@ -9,27 +9,57 @@
     </head>
     <body>
         <div class="mainContainer">
-            <div class="row m1">
-                <label for="MessageInput">Message</label>
-                <textarea
-                    id="MessageInput"
-                    style="flex-grow: 1"
-                    class="MessageInput"
-                >
-При використанні моноалфавітної заміни окремі букви відкритого тексту заміняються іншими буквами або числами або якимись іншими символами.</textarea
-                >
+
+            <div class="Caesar container">
+                <div class="header">Caesar</div>
+                <div class="row m1">
+                    <label for="MessageInput">Message</label>
+                    <textarea
+                        id="MessageInput"
+                        style="flex-grow: 1"
+                        class="MessageInput"
+                    >
+                    </textarea
+                    >
+                </div>
+
+                <div class="row m1">
+                    <label for="StepInput" ></label>Step</label>
+                    <input type="text" id="StepInput" value="3" />
+                </div>
+
+                <div class="row m1">
+                    <button class="button" id="EncodeButton">Encode</button>
+                </div>
+
+                <p id="EncodeResult" class="EncodeResult"></p>
             </div>
 
-            <div class="row m1">
-                <label for="StepInput" ></label>Step</label>
-                <input type="text" id="StepInput" value="3" />
+            <div class="Permutational container">
+                <div class="header">Permutational</div>
+                <div class="row m1">
+                    <label for="MessageInput">Message</label>
+                    <textarea
+                        id="MessageInput"
+                        style="flex-grow: 1"
+                        class="MessageInput"
+                    >
+                    </textarea
+                    >
+                </div>
+
+                <div class="row m1">
+                    <label for="StepInput" ></label>Key</label>
+                    <input type="text" id="StepInput" value="312" />
+                </div>
+
+                <div class="row m1">
+                    <button class="button" id="EncodeButton">Encode</button>
+                </div>
+
+                <p id="EncodeResult" class="EncodeResult"></p>
             </div>
 
-            <div class="row m1">
-                <button class="button" id="EncodeButton">Encode</button>
-            </div>
-
-            <p id="EncodeResult" class="EncodeResult"></p>
         </div>
         <script src="index.js"></script>
     </body>
